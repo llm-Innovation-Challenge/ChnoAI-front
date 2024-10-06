@@ -8,8 +8,8 @@ import { useEffect } from "react";
 import axios from "axios";
 
 function extractPageId(notionLink: string): string | "" {
-  const match = notionLink.match(/notion\.so\/([^?]+)/);
-  return match ? match[1] : "";
+  const match = notionLink.match(/notion\.(so|site)\/([^?]+)/);
+  return match ? match[2] : "";
 }
 
 export default function NotePage() {
