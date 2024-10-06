@@ -30,35 +30,22 @@ npm run dev
 
 서버와 프론트엔드 모두 실행 후 http://localhost:5173에서 서비스 테스트가 가능합니다.
 
-# 아래 무시
+### 예시 링크
+해당 서비스는 개발자의 버그 수정, 환경 설정, 기능 구현과 관련된 대화 링크를 추가해야만 의도한대로 작동합니다.
 
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+```
+https://chatgpt.com/share/67025d56-ea1c-8006-a7a3-164d1e0c253f
+```
+```
+https://chatgpt.com/share/68e6ee7c-23ee-4527-bf3d-7d4d4f4e98f8
+```
+```
+https://chatgpt.com/share/66f3caea-8cbc-8006-a7db-895888089f26
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+위 링크를 추가하고 새로고침을 누르다보면 결과를 확인할 수 있습니다.
+
+(개인 컴퓨터의 메모리 사양 혹은 디스크 남은 용량에 따라 서버 내 크롤링 로직이 동작하지 못할수도 있습니다. 만약 에러가 난다면 컴퓨터 내 메모리 사용량을 확인해주세요)
